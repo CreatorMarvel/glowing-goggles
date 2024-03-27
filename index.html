@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      .qr {
+        max-width: 26rem;
+        margin: 8.4rem auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+      }
+
+      .qr-image {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .qr-description {
+        padding: 0.5rem 1.2rem;
+        text-align: center;
+      }
+
+      .qr-heading {
+        padding: 1.5rem 0;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        font-size: 1.8rem;
+        color: hsl(218, 44%, 22%);
+      }
+
+      .qr-text {
+        line-height: 1.5;
+        font-size: 1.3rem;
+        padding-bottom: 1.2rem;
+        color: hsl(220, 15%, 55%);
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="qr">
+        <img class="qr-image" src="./images/image-qr-code.png" alt="QR Image" />
+        <div class="qr-description">
+          <h1 class="qr-heading">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="qr-text">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Lawrence Mile</a>.
+    </div>
+  </body>
+</html>
